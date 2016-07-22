@@ -100,6 +100,17 @@ if __name__ == '__main__':
     corpsecret = 'FOPk4InFyvHFdz6-_NjeZ9gHN1zJG'  #corpsecretSecret是管理组凭证密钥
     accesstoken = gettoken(corpid,corpsecret)
     senddata(accesstoken,user,subject,content)
-
 ```
+  
+### zabbix设置
+1. 添加示警媒介  
+#### 管理-->示警媒介  
+名称填写**微信报警**，类型选择**脚本**，脚本名称填写**wechat.py**  
+#### 管理-->用户-->示警媒介  
+类型选择**微信报警**，收件人添加**微信企业号通讯录内的，用户帐号**
+
+完成
+
+
+
 
