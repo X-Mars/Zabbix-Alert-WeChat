@@ -3,7 +3,7 @@
 # zabbix微信报警
   
 ### 需要具备一下条件  
- * 注册微信企业号（团队类型），[点击注册][https://qy.weixin.qq.com/]  
+ * 注册微信企业号（团队类型） [点击注册](https://qy.weixin.qq.com/)   
   
 #### 安装simplejson 3.8.2
 ```bash
