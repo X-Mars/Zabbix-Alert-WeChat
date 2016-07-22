@@ -44,7 +44,7 @@ chmod +x /etc/zabbix/alertscripts/wechat.py
 3. 记录**子部门（运维部）ID**
   
 ### 根据收集的信息修改脚本
-```bash
+```python
 #!/usr/bin/python
 #_*_coding:utf-8 _*_
 __author__ = 'lvnian'
