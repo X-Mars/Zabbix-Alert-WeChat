@@ -1,6 +1,6 @@
 #!/usr/bin/python
 #_*_coding:utf-8 _*_
-__author__ = 'lvnian'
+
  
 import urllib,urllib2
 import json
