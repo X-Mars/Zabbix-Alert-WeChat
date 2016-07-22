@@ -1,6 +1,7 @@
 # Zabbix-Alert-WeChat
   
 # zabbix微信报警
+##作者:火星小刘 邮箱:xtlyk@163.com   
   
 ### 需要具备一下条件  
  * 注册微信企业号（团队类型） [点击注册](https://qy.weixin.qq.com/)   
@@ -46,6 +47,7 @@ chmod +x /etc/zabbix/alertscripts/wechat.py
 ### 根据收集的信息修改脚本
 ```python
 #!/usr/bin/python
+#作者:火星小刘 邮箱:xtlyk@163.com 
 #_*_coding:utf-8 _*_
 __author__ = 'lvnian'
  
