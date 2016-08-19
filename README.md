@@ -49,7 +49,7 @@ chmod +x /etc/zabbix/alertscripts/wechat.py
 #!/usr/bin/python
 #作者:火星小刘 邮箱:xtlyk@163.com 
 #_*_coding:utf-8 _*_
-__author__ = 'lvnian'
+
  
 import urllib,urllib2
 import json
