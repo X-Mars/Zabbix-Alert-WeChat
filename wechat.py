@@ -6,7 +6,11 @@ import urllib,urllib2
 import json
 import sys
 import simplejson
- 
+
+reload(sys)
+sys.setdefaultencoding('utf-8')
+
+
 def gettoken(corpid,corpsecret):
     gettoken_url = 'https://qyapi.weixin.qq.com/cgi-bin/gettoken?corpid=' + corpid + '&corpsecret=' + corpsecret
     print  gettoken_url
