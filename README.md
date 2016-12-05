@@ -54,6 +54,3 @@ chmod +x /etc/zabbix/alertscripts/wechat.py
 
 完成
 
-
-
-
