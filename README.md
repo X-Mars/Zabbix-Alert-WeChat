@@ -1,7 +1,8 @@
 # Zabbix-Alert-WeChat
   
 # zabbix微信报警
-## 作者:火星小刘 邮箱:xtlyk@163.com   
+## 作者:火星小刘 
+## 邮箱:xtlyk@163.com   
   
 ### 需要具备一下条件  
  * 注册微信企业号（团队类型） [点击注册](https://qy.weixin.qq.com/)   
