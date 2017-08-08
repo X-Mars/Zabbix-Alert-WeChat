@@ -1,14 +1,24 @@
 # Zabbix-Alert-WeChat zabbix微信报警
 ## 作者:火星小刘 邮箱:xtlyk@163.com   
-  
+
+### 2017-08-08
+1. 全部重写，代码更简洁易读
+2. 舍弃原有**simplejson**，使用**requests**模块
+3. 支持**python2**
+
 ### 需要具备一下条件  
  * 注册微信企业号（团队类型） [点击注册](https://qy.weixin.qq.com/)   或    注册企业号微信  [点击注册](https://work.weixin.qq.com/）
  * 近期腾讯把**微信企业号**升级为了**企业微信**，本脚本完全兼容。
-#### 安装simplejson 3.8.2
-```bash
-wget https://pypi.python.org/packages/f0/07/26b519e6ebb03c2a74989f7571e6ae6b82e9d7d81b8de6fcdbfc643c7b58/simplejson-3.8.2.tar.gz#md5=53b1371bbf883b129a12d594a97e9a18
-tar zxvf simplejson-3.8.2.tar.gz
-cd simplejson-3.8.2
+#### 安装组件
+1. 安装方法一
+```shell
+pip instal requests
+```
+2. 安装方法二
+```shell
+wget https://pypi.python.org/packages/c3/38/d95ddb6cc8558930600be088e174a2152261a1e0708a18bf91b5b8c90b22/requests-2.18.3.tar.gz
+tar zxvf requests-2.18.3.tar.gz
+cd requests-2.18.3
 python setup.py build
 python setup.py install
 ```
