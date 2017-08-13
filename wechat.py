@@ -1,6 +1,8 @@
 #!/usr/bin/python
 #_*_coding:utf-8 _*_
 import requests,sys,json
+import urllib3
+urllib3.disable_warnings()
 
 reload(sys)
 sys.setdefaultencoding('utf-8')
@@ -11,7 +13,7 @@ def GetToken(Corpid,Secret):
         "corpid":Corpid,
         "corpsecret":Secret
     }
-    r = requests.get(url=Url,params=Data)
+    r = requests.get(url=Url,params=Data,verify=False)
     Token = r.json()['access_token']
     return Token
 
@@ -27,7 +29,7 @@ def SendMessage(Token,User,Agentid,Subject,Content):
         },
         "safe": "0"
     }
-    r = requests.post(url=Url,data=json.dumps(Data))
+    r = requests.post(url=Url,data=json.dumps(Data),verify=False)
     return r.text
 
 
