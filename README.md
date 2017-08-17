@@ -12,7 +12,8 @@
 #### 安装组件
 1. 安装方法一
 ```shell
-pip instal requests
+pip install requests
+pip install --upgrade requests
 ```
 2. 安装方法二
 ```shell
