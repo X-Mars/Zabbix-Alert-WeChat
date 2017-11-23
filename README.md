@@ -1,6 +1,10 @@
 # Zabbix-Alert-WeChat zabbix微信报警
 ## 作者:火星小刘 邮箱:xtlyk@163.com   
 
+### 2017-11-23
+**转载必须注明本项目地址**   
+**https://github.com/X-Mars/Zabbix-Alert-WeChat**
+
 ### 2017-08-08
 1. 全部重写，代码更简洁易读
 2. 舍弃原有**simplejson**，使用**requests**模块
