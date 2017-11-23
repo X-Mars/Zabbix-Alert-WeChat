@@ -1,5 +1,7 @@
 #!/usr/bin/python2.7
 #_*_coding:utf-8 _*_
+#auther:火星小刘
+
 import requests,sys,json
 import urllib3
 urllib3.disable_warnings()
