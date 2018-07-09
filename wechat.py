@@ -1,4 +1,4 @@
-"#!/usr/bin/python2.7
+#!/usr/bin/python2.7
 #_*_coding:utf-8 _*_
 #auther:火星小刘
 
