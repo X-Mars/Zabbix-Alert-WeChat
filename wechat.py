@@ -1,4 +1,4 @@
-#!/usr/bin/python2.7
+"#!/usr/bin/python2.7
 #_*_coding:utf-8 _*_
 #auther:火星小刘
 
@@ -23,7 +23,8 @@ def SendMessage(Token,User,Agentid,Subject,Content):
     Url = "https://qyapi.weixin.qq.com/cgi-bin/message/send?access_token=%s" % Token
     Data = {
         "touser": User,                                 # 企业号中的用户帐号，在zabbix用户Media中配置，如果配置不正常，将按部门发送。
-        #"totag": Tagid,                                # 企业号中的部门id，群发时使用。
+        #"totag": Tagid,                                # 企业号中的标签id，群发使用（推荐）
+        #"toparty": Partyid                             # 企业号中的部门id，群发时使用。
         "msgtype": "text",                              # 消息类型。
         "agentid": Agentid,                             # 企业号中的应用id。
         "text": {
@@ -44,6 +45,7 @@ if __name__ == '__main__':
     Secret = "cecnGXBY"     # Secret是管理组凭证密钥
     #Tagid = "1"                                                                     # 通讯录标签ID
     Agentid = "1"                                                                   # 应用ID
+    #Partyid = "1"                                                                  # 部门ID
 
     Token = GetToken(Corpid, Secret)
     Status = SendMessage(Token,User,Agentid,Subject,Content)
