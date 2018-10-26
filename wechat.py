@@ -21,14 +21,14 @@ def GetTokenFromServer(Corpid,Secret):
         return False
     else:
         Token = r.json()['access_token']
-        file = open('config.json', 'w')
+        file = open('/tmp/zabbix_wechat_config.json', 'w')
         file.write(r.text)
         file.close()
         return Token
 
 def SendMessage(User,Agentid,Subject,Content):
     try:
-        file = open('config.json', 'r')
+        file = open('/tmp/zabbix_wechat_config.json', 'r')
         Token = json.load(file)['access_token']
         file.close()
     except:
@@ -61,8 +61,8 @@ def SendMessage(User,Agentid,Subject,Content):
 
 if __name__ == '__main__':
     User = sys.argv[1]                                                                # zabbix传过来的第一个参数
-    Subject = sys.argv[2]                                                             # zabbix传过来的第二个参数
-    Content = sys.argv[3]                                                             # zabbix传过来的第三个参数
+    Subject = str(sys.argv[2])                                                             # zabbix传过来的第二个参数
+    Content = str(sys.argv[3])                                                             # zabbix传过来的第三个参数
 
     Corpid = "wxaf"                                                                     # CorpID是企业号的标识
     Secret = "aKDdCRT76"                                                                # Secret是管理组凭证密钥
