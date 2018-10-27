@@ -1,5 +1,6 @@
 # Zabbix-Alert-WeChat zabbix微信报警
 ## 作者:火星小刘 邮箱:xtlyk@163.com   
+## **https://www.zabbix.com/cn/integrations/wechat** 本项目zabbix官方推荐位列第一，值得信赖
 
 ### 2018-10-13
 1. 添加token缓存支持：避免频繁获取token 进而导致接口被限制
