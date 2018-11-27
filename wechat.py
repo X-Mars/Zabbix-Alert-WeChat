@@ -39,7 +39,7 @@ def SendMessage(User,Agentid,Subject,Content):
     Data = {
         "touser": User,                                 # 企业号中的用户帐号，在zabbix用户Media中配置，如果配置不正常，将按部门发送。
         #"totag": Tagid,                                # 企业号中的标签id，群发使用（推荐）
-        #"toparty": Partyid                             # 企业号中的部门id，群发时使用。
+        #"toparty": Partyid,                             # 企业号中的部门id，群发时使用。
         "msgtype": "text",                              # 消息类型。
         "agentid": Agentid,                             # 企业号中的应用id。
         "text": {
