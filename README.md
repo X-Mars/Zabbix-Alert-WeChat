@@ -79,3 +79,7 @@ chmod +x /etc/zabbix/alertscripts/wechat.py
 
 完成
 
+
+License
+---
+[996ICU License](LICENSE)  
