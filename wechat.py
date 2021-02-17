@@ -63,13 +63,13 @@ def SendMessage(Token,User,Agentid,Subject,Content):
         r = requests.post(url=Url,data=json.dumps(Payload),verify=False)
         if r.status_code == 200:
             if r.json()['errcode'] == 0:
-                return r.text
+                return r.json()['errcode']
             #Access_token expired ,response error code 40014 and 42001,then refresh Cache.
             elif (r.json()['errcode'] == 40014) or (r.json()['errcode'] == 42001):
                 with open(CacheFile, 'w'): pass
                 return r.json()['errcode']
             else:
-                print(r.json()['errcode'])
+                return r.json()['errcode']
         else:
             print(r.status_code)
     except Exception as err:
@@ -92,9 +92,14 @@ if __name__ == '__main__':
     # 部门ID
     Partyid = "1"
 
-    Token = GetToken(Corpid, Secret)
-    Status = SendMessage(Token,User,Agentid,Subject,Content)
-    #When access_token expired refresh Cache try again.
-    if (Status == 40014) or (Status == 42001):
+    try:
         Token = GetToken(Corpid, Secret)
         Status = SendMessage(Token,User,Agentid,Subject,Content)
+        #While access_token expired refresh Cache try again.
+        if Status == 40014 or Status == 42001:
+            Token = GetToken(Corpid, Secret)
+            Status = SendMessage(Token,User,Agentid,Subject,Content)
+        else:
+            print(Status)
+    except Exception as err:
+        print('Erorr Code:',str(err))
