@@ -7,7 +7,7 @@
 
 ### 企业微信群机器人脚本 wechat-robot.py
 
-<img src="https://github.com/X-Mars/Zabbix-Alert-WeChat/blob/master/images/2.png?raw=true" width="50%" height="50%">
+<img src="https://github.com/X-Mars/Zabbix-Alert-WeChat/blob/master/images/2.png?raw=true" width="80%" height="80%">
 
 ### 企业微信应用消息脚本 wechat.py
 ### 2018-10-13
