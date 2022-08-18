@@ -5,6 +5,11 @@
 ### 交流群
 <img src="https://github.com/X-Mars/Zabbix-Alert-WeChat/blob/master/images/1.jpg?raw=true" width="25%" height="25%">
 
+### 企业微信群机器人脚本 wechat-robot.py
+
+<img src="https://github.com/X-Mars/Zabbix-Alert-WeChat/blob/master/images/2.png?raw=true" width="50%" height="50%">
+
+### 企业微信应用消息脚本 wechat.py
 ### 2018-10-13
 1. 添加token缓存支持：避免频繁获取token 进而导致接口被限制
 2. token过期，脚本将重新获取token，并再次执行之前发送操作
