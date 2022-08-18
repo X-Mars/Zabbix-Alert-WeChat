@@ -1,7 +1,7 @@
 #!/usr/bin/python
 # _*_coding:utf-8 _*_
-# auther X-Mars
-# auther:火星小刘
+# auther: X-Mars
+# auther: 火星小刘
 
 import sys, requests
 
