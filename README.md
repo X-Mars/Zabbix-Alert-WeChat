@@ -3,7 +3,8 @@
 
 # 关注作者B站，一起学习运维开发（点击图片跳转）
 
-[![火星小刘B站](https://github.com/X-Mars/Zabbix-Alert-WeChat/blob/master/images/5.jpg?raw=true)](https://space.bilibili.com/439068477)
+<a href="https://space.bilibili.com/439068477" target="_blank"><img src="https://github.com/X-Mars/Zabbix-Alert-WeChat/blob/master/images/5.jpg?raw=true" alt="B站火星小刘" width="25%" height="25%"></a>
+
 
 ### 交流群
 <img src="https://github.com/X-Mars/Zabbix-Alert-WeChat/blob/master/images/1.jpg?raw=true" width="25%" height="25%"><img src="https://github.com/X-Mars/Zabbix-Alert-WeChat/blob/master/images/3.jpg?raw=true" width="46%" height="46%">
