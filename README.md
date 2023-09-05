@@ -1,11 +1,15 @@
 # Zabbix-Alert-WeChat zabbix微信报警
 ## 作者:火星小刘 邮箱:xtlyk@163.com   
-## **https://www.zabbix.com/cn/integrations/wechat** 本项目zabbix官方推荐位列第一，值得信赖
-<img src="https://github.com/X-Mars/Zabbix-Alert-WeChat/blob/master/images/4.png?raw=true">
+
+# 关注作者B站，一起学习运维开发（点击图片跳转）
+
+[![火星小刘B站](https://github.com/X-Mars/Zabbix-Alert-WeChat/blob/master/images/5.jpg?raw=true)](https://space.bilibili.com/439068477)
 
 ### 交流群
-<img src="https://github.com/X-Mars/Zabbix-Alert-WeChat/blob/master/images/1.jpg?raw=true" width="25%" height="25%">
-<img src="https://github.com/X-Mars/Zabbix-Alert-WeChat/blob/master/images/3.jpg?raw=true" width="25%" height="25%">
+<img src="https://github.com/X-Mars/Zabbix-Alert-WeChat/blob/master/images/1.jpg?raw=true" width="25%" height="25%"><img src="https://github.com/X-Mars/Zabbix-Alert-WeChat/blob/master/images/3.jpg?raw=true" width="46%" height="46%">
+
+## **https://www.zabbix.com/cn/integrations/wechat** 本项目zabbix官方推荐位列第一，值得信赖
+<img src="https://github.com/X-Mars/Zabbix-Alert-WeChat/blob/master/images/4.png?raw=true">
 
 ### 2023-09-05
 1. 添加python3 告警脚本
