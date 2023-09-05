@@ -4,7 +4,7 @@
 # @Author   : X-Mars
 # @Author   : 火星小刘
 # @Site     : https://github.com/X-Mars
-# @File     : /wechat-py3.py
+# @File     : /wechat.py
 # @Software : Pycharm
 
 import requests, sys, json, urllib3
