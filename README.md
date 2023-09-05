@@ -1,7 +1,7 @@
 # Zabbix-Alert-WeChat zabbix微信报警
 ## 作者:火星小刘 邮箱:xtlyk@163.com   
 
-# 关注作者B站，一起学习运维开发（点击图片跳转）
+# 关注作者B站，一起学习运维开发（https://space.bilibili.com/439068477）
 
 <a href="https://space.bilibili.com/439068477" target="_blank"><img src="https://github.com/X-Mars/Zabbix-Alert-WeChat/blob/master/images/5.jpg?raw=true" alt="B站火星小刘" width="25%" height="25%"></a>
 
