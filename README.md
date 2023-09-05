@@ -12,8 +12,9 @@
 ## **https://www.zabbix.com/cn/integrations/wechat** 本项目zabbix官方推荐位列第一，值得信赖
 <img src="https://github.com/X-Mars/Zabbix-Alert-WeChat/blob/master/images/4.png?raw=true">
 
-### 2023-09-05
-1. 添加python3 告警脚本
+### 2023-09-05 重要更新
+1. 添加同时兼容 python2 与 python3 的告警脚本 **wechat.py**
+2. 原有python2 告警脚本 重命名为 **wechat-py2-old.py**
 
 ### 企业微信群机器人脚本 wechat-robot.py
 
