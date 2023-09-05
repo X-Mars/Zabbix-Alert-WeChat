@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/python
 # -*- coding: utf-8 -*-
 # @Time     : 2023/9/5 08:53
 # @Author   : X-Mars
