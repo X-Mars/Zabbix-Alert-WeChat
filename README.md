@@ -1,9 +1,14 @@
 # Zabbix-Alert-WeChat zabbix微信报警
 ## 作者:火星小刘 邮箱:xtlyk@163.com   
 ## **https://www.zabbix.com/cn/integrations/wechat** 本项目zabbix官方推荐位列第一，值得信赖
+<img src="https://github.com/X-Mars/Zabbix-Alert-WeChat/blob/master/images/4.png?raw=true">
 
 ### 交流群
 <img src="https://github.com/X-Mars/Zabbix-Alert-WeChat/blob/master/images/1.jpg?raw=true" width="25%" height="25%">
+<img src="https://github.com/X-Mars/Zabbix-Alert-WeChat/blob/master/images/3.jpg?raw=true" width="25%" height="25%">
+
+### 2023-09-05
+1. 添加python3 告警脚本
 
 ### 企业微信群机器人脚本 wechat-robot.py
 

@@ -1,23 +1,22 @@
-#!/usr/bin/python2.7
-# _*_coding:utf-8 _*_
-# auther: X-Mars
-# auther: 火星小刘
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+# @Time     : 2023/9/5 08:53
+# @Author   : X-Mars
+# @Site     : https://github.com/X-Mars
+# @File     : /wechat-py3.py
+# @Software : Pycharm
 
-import requests,sys,json
-import urllib3
-urllib3.disable_warnings()
+import requests, sys, json, urllib3
 
-reload(sys)
-sys.setdefaultencoding('utf-8')
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
-
-def GetTokenFromServer(Corpid,Secret):
+def GetTokenFromServer(Corpid, Secret):
     Url = "https://qyapi.weixin.qq.com/cgi-bin/gettoken"
     Data = {
-        "corpid":Corpid,
-        "corpsecret":Secret
+        "corpid": Corpid,
+        "corpsecret": Secret
     }
-    r = requests.get(url=Url,params=Data,verify=False)
+    r = requests.get(url=Url, params=Data, verify=False)
     print(r.json())
     if r.json()['errcode'] != 0:
         return False
@@ -29,7 +28,7 @@ def GetTokenFromServer(Corpid,Secret):
         return Token
 
 
-def SendMessage(User,Agentid,Subject,Content):
+def SendMessage(User, Agentid, Subject, Content):
     try:
         file = open('/tmp/zabbix_wechat_config.json', 'r')
         Token = json.load(file)['access_token']
@@ -41,8 +40,8 @@ def SendMessage(User,Agentid,Subject,Content):
     Url = "https://qyapi.weixin.qq.com/cgi-bin/message/send?access_token=%s" % Token
     Data = {
         "touser": User,                                 # 企业号中的用户帐号，在zabbix用户Media中配置，如果配置不正常，将按部门发送。
-        #"totag": Tagid,                                # 企业号中的标签id，群发使用（推荐）
-        #"toparty": Partyid,                             # 企业号中的部门id，群发时使用。
+        # "totag": Tagid,                                # 企业号中的标签id，群发使用（推荐）
+        # "toparty": Partyid,                             # 企业号中的部门id，群发时使用。
         "msgtype": "text",                              # 消息类型。
         "agentid": Agentid,                             # 企业号中的应用id。
         "text": {
@@ -50,13 +49,13 @@ def SendMessage(User,Agentid,Subject,Content):
         },
         "safe": "0"
     }
-    r = requests.post(url=Url,data=json.dumps(Data),verify=False)
+    r = requests.post(url=Url, data=json.dumps(Data), verify=False)
     while r.json()['errcode'] != 0 and n < 4:
         n+=1
         Token = GetTokenFromServer(Corpid, Secret)
         if Token:
             Url = "https://qyapi.weixin.qq.com/cgi-bin/message/send?access_token=%s" % Token
-            r = requests.post(url=Url,data=json.dumps(Data),verify=False)
+            r = requests.post(url=Url, data=json.dumps(Data), verify=False)
             print(r.json())
 
     return r.json()
@@ -67,11 +66,11 @@ if __name__ == '__main__':
     Subject = str(sys.argv[2])                                                             # zabbix传过来的第二个参数
     Content = str(sys.argv[3])                                                             # zabbix传过来的第三个参数
 
-    Corpid = "wxaf"                                                                     # CorpID是企业号的标识
-    Secret = "aKDdCRT76"                                                                # Secret是管理组凭证密钥
+    Corpid = "wxaf107f5ababc0f0c"                                                                     # CorpID是企业号的标识
+    Secret = "SAPYpNDTNik-WcRQSox3LganpkrZTnp7UOpPPOWO154"                                                                # Secret是管理组凭证密钥
     #Tagid = "1"                                                                        # 通讯录标签ID
-    Agentid = "1000001"                                                                 # 应用ID
+    Agentid = "1"                                                                 # 应用ID
     #Partyid = "1"                                                                      # 部门ID
 
-    Status = SendMessage(User,Agentid,Subject,Content)
+    Status = SendMessage(User, Agentid, Subject, Content)
     print(Status)
