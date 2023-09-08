@@ -3,7 +3,7 @@
 
 # 关注作者B站，一起学习运维开发 https://space.bilibili.com/439068477
 
-<a href="https://space.bilibili.com/439068477" target="_blank"><img src="https://github.com/X-Mars/Zabbix-Alert-WeChat/blob/master/images/5.jpg?raw=true" alt="B站火星小刘" width="40%" height="40%"></a>
+<a href="https://space.bilibili.com/439068477" target="_blank"><img src="https://github.com/X-Mars/Zabbix-Alert-WeChat/blob/master/images/5.jpg?raw=true" alt="B站火星小刘" width="50%" height="50%"></a>
 
 
 ### 交流群
@@ -14,7 +14,8 @@
 
 ### 2023-09-08 更新
 1. 添加钉钉机器人支持 **dingtalk-robot.py**
-<img src="https://github.com/X-Mars/Zabbix-Alert-WeChat/blob/master/images/6.png?raw=true" width="90%" height="90%">
+<img src="https://github.com/X-Mars/Zabbix-Alert-WeChat/blob/master/images/6.png?raw=true" width="45%" height="45%">
+<img src="https://github.com/X-Mars/Zabbix-Alert-WeChat/blob/master/images/7.png?raw=true" width="45%" height="45%">
 
 ### 2023-09-05 重要更新
 1. 添加同时兼容 python2 与 python3 的告警脚本 **wechat.py**
