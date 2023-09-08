@@ -14,8 +14,8 @@
 
 ### 2023-09-08 更新
 1. 添加钉钉机器人支持 **dingtalk-robot.py**
-<img src="https://github.com/X-Mars/Zabbix-Alert-WeChat/blob/master/images/6.png?raw=true" width="45%" height="45%">
-<img src="https://github.com/X-Mars/Zabbix-Alert-WeChat/blob/master/images/7.png?raw=true" width="45%" height="45%">
+<img src="https://github.com/X-Mars/Zabbix-Alert-WeChat/blob/master/images/6.png?raw=true" width="70%" height="70%">
+<img src="https://github.com/X-Mars/Zabbix-Alert-WeChat/blob/master/images/7.png?raw=true" width="80%" height="80%">
 
 ### 2023-09-05 重要更新
 1. 添加同时兼容 python2 与 python3 的告警脚本 **wechat.py**
