@@ -18,8 +18,8 @@ sign = urllib.parse.quote_plus(base64.b64encode(hmac_code))
 subject = str(sys.argv[1])
 message = str(sys.argv[2])
 # robot_token 为机器人地址中的xxxxxxxxxxx   https://oapi.dingtalk.com/robot/send?access_token=xxxxxxxxxxx
-
 robot_token = str(sys.argv[3])
+
 robot = "https://oapi.dingtalk.com/robot/send?access_token=" + robot_token + "&timestamp=" + timestamp + "&sign=" + sign
 
 data = {
