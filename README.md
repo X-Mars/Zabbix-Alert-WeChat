@@ -1,9 +1,9 @@
 # Zabbix-Alert-WeChat zabbix微信报警
 ## 作者:火星小刘 邮箱:xtlyk@163.com   
 
-# 关注作者B站，一起学习运维开发（https://space.bilibili.com/439068477）
+# 关注作者B站，一起学习运维开发 https://space.bilibili.com/439068477
 
-<a href="https://space.bilibili.com/439068477" target="_blank"><img src="https://github.com/X-Mars/Zabbix-Alert-WeChat/blob/master/images/5.jpg?raw=true" alt="B站火星小刘" width="25%" height="25%"></a>
+<a href="https://space.bilibili.com/439068477" target="_blank"><img src="https://github.com/X-Mars/Zabbix-Alert-WeChat/blob/master/images/5.jpg?raw=true" alt="B站火星小刘" width="40%" height="40%"></a>
 
 
 ### 交流群
@@ -11,6 +11,10 @@
 
 ## **https://www.zabbix.com/cn/integrations/wechat** 本项目zabbix官方推荐位列第一，值得信赖
 <img src="https://github.com/X-Mars/Zabbix-Alert-WeChat/blob/master/images/4.png?raw=true">
+
+### 2023-09-08 更新
+1. 添加钉钉机器人支持 **dingtalk-robot.py**
+<img src="https://github.com/X-Mars/Zabbix-Alert-WeChat/blob/master/images/6.png?raw=true" width="90%" height="90%">
 
 ### 2023-09-05 重要更新
 1. 添加同时兼容 python2 与 python3 的告警脚本 **wechat.py**
