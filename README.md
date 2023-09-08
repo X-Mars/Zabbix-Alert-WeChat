@@ -17,7 +17,7 @@
 <img src="https://github.com/X-Mars/Zabbix-Alert-WeChat/blob/master/images/6.png?raw=true" width="70%" height="70%">
 <img src="https://github.com/X-Mars/Zabbix-Alert-WeChat/blob/master/images/7.png?raw=true" width="80%" height="80%">
 
-2添加飞书机器人支持 **feishu-robot.py**
+2. 添加飞书机器人支持 **feishu-robot.py**
 <img src="https://github.com/X-Mars/Zabbix-Alert-WeChat/blob/master/images/8.png?raw=true" width="80%" height="80%">
 
 ### 2023-09-05 重要更新
