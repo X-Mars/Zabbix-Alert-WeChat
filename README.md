@@ -1,10 +1,17 @@
-# Zabbix-Alert-WeChat zabbix微信报警
-## 作者:火星小刘 邮箱:xtlyk@163.com   
+# Zabbix-Alert-WeChat zabbix 微信 等各类告警脚本
 
-# 关注作者B站，一起学习运维开发 https://space.bilibili.com/439068477
+## 作者:火星小刘 邮箱:xtlyk@126.com   
+
+## 关注作者B站，一起学习运维开发 https://space.bilibili.com/439068477
 
 <a href="https://space.bilibili.com/439068477" target="_blank"><img src="https://github.com/X-Mars/Zabbix-Alert-WeChat/blob/master/images/5.jpg?raw=true" alt="B站火星小刘" width="50%" height="50%"></a>
 
+### 包含脚本
+1. 企业微信应用消息脚本 **wechat.py**
+2. 企业微信群机器人脚本 **wechat-robot.py**
+3. 钉钉机器人脚本 **dingtalk-robot.py**
+4. 飞书机器人脚本 **feishu-robot.py**
+5. 企业微信应用消息python2版本脚本 **wechat-py2-old.py**
 
 ### 交流群
 <img src="https://github.com/X-Mars/Zabbix-Alert-WeChat/blob/master/images/1.jpg?raw=true" width="25%" height="25%"><img src="https://github.com/X-Mars/Zabbix-Alert-WeChat/blob/master/images/3.jpg?raw=true" width="46%" height="46%">
