@@ -7,12 +7,12 @@ import sys, requests
 
 subject = str(sys.argv[1])
 message = str(sys.argv[2])
-robot = "https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=" + sys.argv[3]
+robot = 'https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=' + sys.argv[3]
 
 data = {
-    "msgtype": "markdown",
-    "markdown": {
-        "content": subject + "\n" + message
+    'msgtype': 'markdown',
+    'markdown': {
+        'content': subject + '\n' + message
     }
 }
 

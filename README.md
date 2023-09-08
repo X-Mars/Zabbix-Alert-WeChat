@@ -17,6 +17,9 @@
 <img src="https://github.com/X-Mars/Zabbix-Alert-WeChat/blob/master/images/6.png?raw=true" width="70%" height="70%">
 <img src="https://github.com/X-Mars/Zabbix-Alert-WeChat/blob/master/images/7.png?raw=true" width="80%" height="80%">
 
+2添加飞书机器人支持 **feishu-robot.py**
+<img src="https://github.com/X-Mars/Zabbix-Alert-WeChat/blob/master/images/8.png?raw=true" width="80%" height="80%">
+
 ### 2023-09-05 重要更新
 1. 添加同时兼容 python2 与 python3 的告警脚本 **wechat.py**
 2. 原有python2 告警脚本 重命名为 **wechat-py2-old.py**
