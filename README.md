@@ -3,7 +3,6 @@
 ## 作者:火星小刘 邮箱:xtlyk@126.com   
 
 ## 关注作者B站，一起学习运维开发 https://space.bilibili.com/439068477
-[<img src="https://api.gitsponsors.com/api/badge/img?id=63833687" height="20">](https://api.gitsponsors.com/api/badge/link?p=157TsPvt4urtp96A57FVtohGlm3O3irBIuRIjfperHEz4KjlJzImt0XYUD4wLwifldw6v2cYpIiyOq5E4XTvXHfn7X9XBSmQFJAKWFcRPiL1EvP0GAoBENcsnqvroXIc2BnC2MsVuooeo20VvgrwCQ==)
 <a href="https://space.bilibili.com/439068477" target="_blank"><img src="https://github.com/X-Mars/Zabbix-Alert-WeChat/blob/master/images/5.jpg?raw=true" alt="B站火星小刘" width="50%" height="50%"></a>
 
 ### 包含脚本
