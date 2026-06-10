@@ -1,6 +1,8 @@
 # Zabbix-Alert-WeChat zabbix 微信 等各类告警脚本
 
-## 作者:火星小刘 邮箱:xtlyk@126.com   
+## 作者:火星小刘 邮箱:xtlyk@126.com
+
+<a href="https://www.zabbix.com/cn/integrations/wechat"><img alt="Zabbix Integration Partner" src="images/zabbix-integration-partner.svg" width="190"></a>
 
 ## 关注作者B站，一起学习运维开发 https://space.bilibili.com/439068477
 <a href="https://space.bilibili.com/439068477" target="_blank"><img src="https://github.com/X-Mars/Zabbix-Alert-WeChat/blob/master/images/5.jpg?raw=true" alt="B站火星小刘" width="50%" height="50%"></a>
